@@ -216,7 +216,10 @@ fail:
 }
 
 
-#define XA_MAX_CHANNELS 32 /* usually 08-16, seen ~24 in Langrisser V (PS1) */
+/* usually 08-16; Digimon Rumble Arena uses ~120. We use 255 to support many
+ * interleaved channels while excluding 0xFF, as it is commonly used for
+ * null/silence sectors in games like Yu-Gi-Oh! FM, Ace Combat, etc. */
+#define XA_MAX_CHANNELS 255
 
 typedef struct {
    uint32_t info;
