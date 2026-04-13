@@ -679,6 +679,7 @@
     <ClCompile Include="meta\pc_mxst.c" />
     <ClCompile Include="meta\pdt.c" />
     <ClCompile Include="meta\piff_tpcm.c" />
+    <ClCompile Include="meta\plug.c" />
     <ClCompile Include="meta\pona.c" />
     <ClCompile Include="meta\pos.c" />
     <ClCompile Include="meta\pphd.c" />
