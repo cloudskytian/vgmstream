@@ -1062,4 +1062,6 @@ VGMSTREAM* init_vgmstream_gcsp(STREAMFILE* sf);
 
 VGMSTREAM* init_vgmstream_crid(STREAMFILE* sf);
 
+VGMSTREAM* init_vgmstream_plug(STREAMFILE* sf);
+
 #endif
